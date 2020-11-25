@@ -345,7 +345,7 @@ const experience = {
           title: "Team Lead",
           company: "Infosys Ltd.",
           
-          logo_path: "muffito_logo.png",
+          logo_path: "infosys_logo.png",
           duration: "2.5 Years",
           location: "London, UK",
            color: "#9b1578",
@@ -353,7 +353,7 @@ const experience = {
         {
           title: "System Engineer/Test Analyst",
           company: "Infosys Ltd.",
-           logo_path: "freecopy_logo.png",
+           logo_path: "infosys_logo.png",
           duration: "6 Years",
           location: "Hyderabad, Andhra Pradesh",
                 color: "#fc1f20",
