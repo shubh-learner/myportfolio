@@ -3,9 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import Certifications from "../../containers/certifications/Certifications";
-import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import EducationImg from "./EducationImg";
-import { competitiveSites } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 
@@ -29,10 +27,13 @@ class Education extends Component {
                 <h1 className="heading-text" style={{ color: theme.text }}>
                   Certifications
                 </h1>
-                <h3 className="heading-sub-text" style={{ color: theme.text }}>
-              
-                </h3>
-                <CompetitiveSites logos={competitiveSites.competitiveSites} />
+                <p 
+                className="heading-sub-text" 
+                style={{ color: theme.secondaryText }}
+                >
+                Here I have some of my Online and Offline certifications.
+                </p>
+                
               </div>
             </div>
           </Fade>

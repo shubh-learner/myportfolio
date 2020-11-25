@@ -18,15 +18,7 @@ const greeting = {
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
+  
   {
     name: "Github",
     link: "https://github.com/shubh-learner",
@@ -278,6 +270,52 @@ const degrees = {
 
 const certifications = {
   certifications: [
+    {
+      title: "Machine Learning",
+      subtitle: "- Kirill Eremenko",
+      logo_path: "small-udemy.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-d3b621a8-7777-4717-93f3-28e026496a4f/",
+      alt_name: "",
+      color_code: "#8C151599",
+    },
+    {
+      title: "Deep Learning and Computer Vision",
+      subtitle: "- Hadelin de Ponteves",
+      logo_path: "deeplearning_ai_logo.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-0cc7dbb7-a428-4ba4-9100-4f03fc2e75fa/",
+      alt_name: "deeplearning.ai",
+      color_code: "#00000099",
+    },
+    {
+      title: "AWS - Well Architechted",
+      subtitle: "- GCP Training",
+      logo_path: "aws_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1qdTEMo0jvP1GjS11Q8TlEByf7S9-xz-0/view?usp=sharing",
+      alt_name: "Google",
+      color_code: "#0C9D5899",
+    },
+
+    {
+      title: "Microsoft Certified Professional",
+      subtitle: "",
+      logo_path: "microsoft_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1As6k6AMfehQTTLSphNjpY2W70Ny-A4cV/view?usp=sharing",
+      alt_name: "Microsoft",
+      color_code: "#D83B0199",
+    },
+    {
+      title: "Microsoft Technology Specialist",
+      subtitle: "SQL Server",
+      logo_path: "microsoft_logo.png",
+      certificate_link:
+        "https://drive.google.com/file/d/1He2DBNbdBNBSoHaJ8Z9NnJ9V8oB8gsfE/view?usp=sharing",
+      alt_name: "Microsoft",
+      color_code: "#D83B0199",
+    }
     
   ],
 };
@@ -287,7 +325,7 @@ const experience = {
   title: "Experience",
   subtitle: "Work and Volunteership",
   description:
-    "I have worked with evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with a well established MNCs.",
+    "I have worked with evolving startups as ML Developer and Automation Lead. I have also worked with a well established MNCs.",
   header_image_path: "experience.svg",
   sections: [
     {
